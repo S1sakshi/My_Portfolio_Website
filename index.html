@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/jpg" href="Images/S-Favicon.jpg" >
+    <title>Shreya Sakshi</title>
+    
+    <link rel="stylesheet" href = "style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+<!---------------------------------------------------- Body Header section---------------------------------------------------------------------------------------> 
+
+    <header id="body-header">
+
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="Images/video1.mp4" type="video/mp4">
+        </video>
+        
+<!---------------------------------------------------- Upside Nav Sections -------------------------------------------------------------------------------------->
+
+        <header class="header">
+        <nav class="navbar">
+            <div class="logo">My Portfolio</div>
+            
+            <!-- Checkbox for toggle menu -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                <li class="nav-item"><a href="#aboutMe" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+                <li class="nav-item"><a href="#recentExperience" class="nav-link"><i class="fa-solid fa-laptop"></i> Experience</a></li>
+                <li class="nav-item"><a href="#MyProjects" class="nav-link"><i class="fa-duotone fa-solid fa-lightbulb"></i> Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-file"></i> Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+
+<!---------------------------------------------------- My name -------------------------------------------------------------------------------------->
+        
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Shreya Sakshi</h1>
+            </div>
+
+            <p id="small-about">
+                I am passionate about technology, innovation and big challenging tasks on my to-do list. That makes me want to learn more and keep up with building something greater than me.
+            </p>
+
+<!----------------------------------------------------Social Icons on top left --------------------------------------------------------------------------------------->
+
+            <div>
+                <ul class="horizontal-list text-center social-icons">
+
+                    <li> <a href="https://www.linkedin.com/in/shreya-sakshi-b13ba518a/" target =_blank> <i class="fa-brands fa-linkedin"></i> </a> </li>
+                    <li> <a href="https://github.com/S1sakshi" target =_blank> <i class="fa-brands fa-github"></i> </a> </li>
+                    <li> <a href="https://www.instagram.com/accounts/login/" target =_blank> <i class="fa-brands fa-instagram"></i> </a> </li>
+                    <li> <a href="https://leetcode.com/u/shreyasakshi100/" target =_blank> <i class="fa-solid fa-code"></i> </a> </li>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+    
+<!---------------------------------------------------- Body Main section--------------------------------------------------------------------------------------->    
+    
+<!---------------------------------------------------- About Me--------------------------------------------------------------------------------------->
+    <main>
+        <div id="aboutMe"></div>
+        <section class="about-me">
+            <div class="about-container">
+                <div class="about-photo">
+                    <img src="Images/Photo.jpg" alt="Your Name">
+                </div>
+                <div class="about-text">
+                    <h2>About <span style="color:#e74d06">Me</span></h2>
+                    <p style="font-size:20px">I am a Node.js Backend Developer with expertise in Node.js, JavaScript, Express.js, MongoDB, HTML5, CSS3, and Git. On the backend, With experience, I have got specialized in creating robust APIs, working with databases, and delivering high-quality server-side applications. I thrive in collaborative environments and am always eager to learn and implement the latest technologies in web development. My approach to development is always centered on writing clean, maintainable code and following best practices to ensure the quality and reliability of the applications I build.</p>
+                </div>
+            </div>
+            <div class="resume">
+                <button><a href="#" target =_blank>&nbsp; Resume &nbsp;</a></button>
+            </div>
+            <div id="recentExperience"></div> 
+        </section>
+
+        
+
+<!---------------------------------------------------------------Experience----------------------------------------------------------------------->
+
+        <section class="experience" style="background-color: rgba(236, 218, 218, 0.684)">
+            <div class="experience-container">
+                <div class="experience-photo">
+                    <img src="Images/Capgemini-Logo.png" alt="Company Logo">
+                </div>
+                <div class="experience-details">
+                    <h2>Work <span style="color:#e74d06">Experience</h2>
+                        <div class="job">
+                            <h3>Software Engineer</h3>
+                            <p><em>Nov 2021 - Jul 2024</em></p>
+                            <p>Developed a single-page application (SPA) for the Royal Mail Group to streamline parcel tracking and 
+                            customer service operations. Designed and implemented a responsive, user-friendly interface using HTML5 and CSS3. Utilized JavaScript to create dynamic, interactive components and ensure smooth navigation without page 
+                            reloads. Integrated with a Node.js backend to handle real-time data retrieval and updates for parcel tracking 
+                            information. </p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+<!-------------------------------------------------------------------Skills----------------------------------------------------------------------->
+
+        <section id="skills" >
+
+            <div class="skills_section">
+                <div class="skills_head">
+                    <h1 style="font-size: 40px; ">My <span style="color:#e74d06; ">Skills</span></h1>
+                </div>
+    
+                <div class="skills_main">
+                    
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>Backend</p>
+                        </div>
+                        <div class="bar">
+                            <span class="backend"></span>
+                        </div>
+                    </div>
+        
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>MERN</p>
+                        </div>
+                        <div class="bar">
+                            <span class="mern"></span>
+                        </div>
+                    </div>
+        
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>Node.js</p>
+                        </div>
+                        <div class="bar">
+                            <span class="nodejs"></span>
+                        </div>
+                    </div>
+        
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="bar">
+                            <span class="js"></span>
+                        </div>
+                    </div>
+        
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>HTML/CSS</p>
+                        </div>
+                        <div class="bar">
+                            <span class="html_css"></span>
+                        </div>
+                    </div>
+        
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>Git</p> 
+                        </div>
+                        <div class="bar">
+                            <span class="git"></span>
+                        </div>
+                    </div>
+        
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>Data Structures & Algorithms with Java</p>
+                        </div>
+                        <div class="bar">
+                            <span class="dsa"></span>
+                        </div>
+                    </div>
+        
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>SQL</p>
+                        </div>
+                        <div class="bar">
+                            <span class="sql"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>Problem Solving</p>
+                        </div>
+                        <div class="bar">
+                            <span class="problem_solving"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill_bar">
+                        <div class="info">
+                            <p>Creativity</p>
+                        </div>
+                        <div class="bar">
+                            <span class="creativity"></span>
+                        </div>
+                        <div id="MyProjects">  </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        
+
+<!---------------------------------------------------- Projects --------------------------------------------------------------------------------------->
+
+        <section id="projects" style="background-color: rgba(236, 218, 218, 0.684)">
+            
+            <div> <h1 style="font-size: 45px; text-align: center; margin-top: -1rem">Projects</h1> </div>
+             
+            <div style="margin-top: 2rem" class="project">
+                <h3 style="color:#e74d06">My Portfolio website</h3>
+                <p>Hey there, welcome to my portfolio website on GitHub! I have designed a personal portfolio website to showcase my software development skills and projects. The site highlights my ability to create user-friendly and visually appealing web applications. Check it out to see examples of my work and learn more about my development process.</p>
+
+                <p><strong>Technologies:</strong> HTML, CSS</p>
+
+                <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a> |
+                <a href="https://yourusername.github.io/project1/" target="_blank">Live Demo</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <h3 style="color:#e74d06">Interactive To-do List App</h3>
+                <p>A dynamic to-do list application developed to enhance task management. This project features interactive functionalities such as adding, editing, and removing tasks. The project demonstrates my proficiency in JavaScript for interactive elements and my ability to create a user-friendly interface.</p>
+
+                <!-- It includes features like task prioritization, due dates, and a filter option to view completed or pending tasks. -->
+
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+
+                <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a> 
+                <!-- |<a href="https://yourusername.github.io/project2/" target="_blank">Live Demo</a> -->
+            </div>
+
+            <!-- Project 3 -->
+            <!-- <div class="project">
+                <h3 style="color:#e74d06">Expense Tracker</h3>
+                <p>A brief description of Project 2. Explain the project’s purpose, challenges faced, and how you solved them.</p>
+                <p><strong>Technologies:</strong> Python, Django, PostgreSQL</p>
+                <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a> |
+                <a href="https://yourusername.github.io/project2/" target="_blank">Live Demo</a>
+            </div> -->
+
+        </section>
+
+<!---------------------------------------------------- Certificates --------------------------------------------------------------------------------------->
+        
+        <section id="certificates" class="section">
+
+            <div> <h1 style="font-size: 45px; text-align: center; margin-bottom: 25px">Recent <span style="color:#e74d06">Certificates</h1> </div>
+
+                <div class="slider-container">
+                    <!-- Radio Buttons -->
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+            
+                    <!-- Slide Images -->
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="Images/certificate.png" alt="Certificate 1">
+                        </div>
+                        <div class="slide">
+                            <img src="Images/certificate.png" alt="Certificate 2">
+                        </div>
+                        <div class="slide">
+                            <img src="Images/certificate.png" alt="Certificate 3">
+                        </div>
+                    </div>
+            
+                    <!-- Slide Navigation -->
+                    <div class="navigation">
+                        <label for="slide1" class="nav-dot"></label>
+                        <label for="slide2" class="nav-dot"></label>
+                        <label for="slide3" class="nav-dot"></label>
+                    </div>
+                </div>
+
+        </section>
+
+<!---------------------------------------------------- Contact --------------------------------------------------------------------------------------->        
+
+        <section id="contact" style="background-color: rgba(236, 218, 218, 0.684)">
+            <div> <h1 style="font-size: 45px; text-align: center; margin-top: 30px">Get In <span style="color:#e74d06">Touch🤝</h1> </div>
+
+            <p>Currently, I am seeking full time-opportunities as a Node.js developer💻. If you have a project or role that aligns with my skills, please feel free to reach out to me at ✉️<a href="shreyasakshi100@gmail.com">shreyasakshi100@gmail.com</a>...!</p>
+
+            <!-------------------------------Last section icons---------------------------------------------->
+
+            <div>
+                <ul class="last-section-icons">
+                    <li> <a href="https://www.linkedin.com/in/shreya-sakshi-b13ba518a/" target =_blank> <i class="fa-brands fa-linkedin"></i> </a> </li>
+                    <li> <a href="https://github.com/S1sakshi" target =_blank> <i class="fa-brands fa-github"></i> </a> </li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>
