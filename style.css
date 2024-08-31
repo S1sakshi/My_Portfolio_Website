@@ -656,11 +656,10 @@ input#slide3:checked ~ .navigation label:nth-child(3) {
 /*----------------------------------------------------------- Last section icons --------------------------------------------------------------------*/
 
 .last-section-icons{
-    position: relative;
+    display: flex;
+    justify-content: center;
     list-style: none;
-    padding-left: 40rem;
     color: white;
-
 }
 
 .last-section-icons li{
