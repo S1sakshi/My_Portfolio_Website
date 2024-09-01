@@ -561,15 +561,15 @@
 
 /*----------------------------------------------------------- Certificates --------------------------------------------------------------------*/
 
-#certificates {
+/* #certificates {
     padding-top: 40px;
     padding-bottom: 50px;
     padding-bottom: -2rem;
     text-align: center;
-}
+} */
 
 /* Slider Container */
-.slider-container {
+/* .slider-container {
     margin-top: 30px;
     width: 50%;
     text-align: center;
@@ -578,41 +578,41 @@
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Hide Radio Buttons */
-input[type="radio"] {
+/* input[type="radio"] {
     display: none;
-}
+} */
 
 /* Slides Container */
-.slides {
+/* .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
-}
+} */
 
 /* Slide */
-.slide {
+/* .slide {
     min-width: 100%;
     transition: opacity 0.5s ease-in-out;
-}
+} */
 
 /* Slide Image */
-.slide img {
+/* .slide img {
     width: 100%;
     display: block;
-}
+} */
 
 /* Navigation Dots */
-.navigation {
+/* .navigation {
     text-align: center;
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 
-.nav-dot {
+/* .nav-dot {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -620,9 +620,9 @@ input[type="radio"] {
     background-color: rgb(255, 123, 0);
     border-radius: 50%;
     cursor: pointer;
-}
+} */
 
-input#slide1:checked ~ .slides {
+/* input#slide1:checked ~ .slides {
     transform: translateX(0%);
 }
 
@@ -632,14 +632,14 @@ input#slide2:checked ~ .slides {
 
 input#slide3:checked ~ .slides {
     transform: translateX(-200%);
-}
+} */
 
 /* Active Navigation Dot */
-input#slide1:checked ~ .navigation label:nth-child(1),
+/* input#slide1:checked ~ .navigation label:nth-child(1),
 input#slide2:checked ~ .navigation label:nth-child(2),
 input#slide3:checked ~ .navigation label:nth-child(3) {
     background-color: #333;
-}
+} */
 
 
 
