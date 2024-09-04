@@ -188,7 +188,7 @@
     color: rgb(42, 31, 31);
     position: absolute;
     display: flex;
-    align-items: center;
+    justify-content: center;
     text-decoration: none;
     background-color: #ff9800;
     border-radius: 5px;
