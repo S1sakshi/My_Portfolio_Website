@@ -186,14 +186,13 @@
 
 .btn{
     color: rgb(42, 31, 31);
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     text-decoration: none;
     background-color: #ff9800;
     border-radius: 5px;
     font-size: 19px;
-    margin-left: -85px;
     font-family: cursive;
     font-weight: bold;
 }
