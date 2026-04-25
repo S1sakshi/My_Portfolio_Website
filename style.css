@@ -301,247 +301,87 @@
 
 /* Experience Section */
 .experience {
-    padding: 50px 0;
     background-color: rgba(236, 218, 218, 0.684);
+    padding: 40px 20px;
 }
 
-.experience-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.experience-photo {
-    flex: 1;
-    padding: 20px;
+.section-title {
     text-align: center;
-}
-
-.experience-photo img {
-    width: 30rem;
-    height: 5rem;
-    max-width: 200px;
-}
-
-.experience-details {
-    flex: 2;
-    padding: 20px;
-    margin-top: 2rem;
-}
-
-.experience-details h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.job {
+    font-size: 2.4rem;  /* 👈 increased from ~2rem */
     margin-bottom: 30px;
 }
 
-.job h3 {
-    font-size: 1.5em;
-    margin-bottom: 5px;
+.section-title span {
+    color: #e74d06;
 }
 
-.job p {
-    font-size: 1.1em;
-    line-height: 1.8;
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 40px;  /* 👈 adds space between experiences */
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .experience-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .experience-details {
-        text-align: center;
-    }
-}
 .experience-photo img {
-    transition: transform 0.3s ease;
+    width: 120px;   /* increased from 80px */
+    height: auto;
 }
 
-.experience-photo img:hover {
-    transform: scale(1.05);
+.experience-details {
+    flex: 1;
+}
+
+.experience-details h3 {
+    margin: 0;
+    font-size: 1.1rem;   /* reduced from 1.4rem */
+    font-weight: 600;
+}
+
+.experience-details p {
+    margin: 5px 0 10px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.experience-details ul {
+    margin: 0;
+    padding-left: 20px;
 }
 
 
 /*------------------------------------------------------------------ Skills ---------------------------------------------------------------------*/
-#skills{
-    margin-top: -6rem;
-    margin-bottom: -4rem;
+#skills {
+    margin-top: 60px;    /* 👈 space above */
+    margin-bottom: 60px; /* 👈 space below */
 }
 
-.skills_section{
-    width: 100%;
-    height: 100vh;
-    padding: 0px 13%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.skills_head{
-    width: 100%;
-    margin-bottom: 40px;
+.skills_main {
     display: grid;
-    place-items: center;
-    text-align: center;
-}
-.skills_head h2{
-    font-size: 30px;
-    margin-bottom: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
-.skills_main{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 30px;
-    grid-column-gap: 50px;
-    margin-bottom: 1rem;
-}
-.skills_main .skill_bar .info{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:  0 10px;
-}
-.skill_bar .info p:nth-child(2){
-    font-weight: 500;
-}
-.skill_bar .bar{
-    width: 100%;
-    height: 10px;
-    background-color: rgba(0, 0, 0, 0.144);
-    border-radius: 25px;
-    margin-top: 5px;
-    position: relative;
-}
-.skill_bar .bar span{
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    background-color: #e74d06;
-    border-radius: 25px;
+.skill_category {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
 }
 
-/*------for animated bars of skills------*/
+.skill_category:hover {
+    transform: translateY(-5px);
+}
 
-.skill_bar .bar .backend{
-    width: 87%;
-    animation: backend 2s;
+.skill_category h3 {
+    margin-bottom: 10px;
+    color: #e74d06;
 }
-@keyframes backend {
-    0%{
-        width: 0%;
-    }100%{
-        width: 87%;
-    }
-}
-.skill_bar .bar .mern{
-    width: 65%;
-    animation: mern 2s;
-}
-@keyframes mern {
-    0%{
-        width: 0%;
-    }100%{
-        width: 65%;
-    }
-}
-.skill_bar .bar .nodejs{
-    width: 65%;
-    animation: nodejs 2s;
-}
-@keyframes nodejs {
-    0%{
-        width: 0%;
-    }100%{
-        width: 65%;
-    }
-}
-.skill_bar .bar .js{
-    width: 60%;
-    animation: js 2s;
-}
-@keyframes js {
-    0%{
-        width: 0%;
-    }100%{
-        width: 60%;
-    }
-}
-.skill_bar .bar .html_css{
-    width: 75%;
-    animation: html_css 2s;
-}
-@keyframes html_css {
-    0%{
-        width: 0%;
-    }100%{
-        width: 75%;
-    }
-}
-.skill_bar .bar .git{
-    width: 75%;
-    animation: git 2s;
-}
-@keyframes git {
-    0%{
-        width: 0%;
-    }100%{
-        width: 75%;
-    }
-}
-.skill_bar .bar .dsa{
-    width: 80%;
-    animation: dsa 2s;
-}
-@keyframes dsa {
-    0%{
-        width: 0%;
-    }100%{
-        width: 80%;
-    }
-}
-.skill_bar .bar .sql{
-    width: 70%;
-    animation: sql 2s;
-}
-@keyframes sql {
-    0%{
-        width: 0%;
-    }100%{
-        width: 70%;
-    }
-}
-.skill_bar .bar .problem_solving{
-    width: 80%;
-    animation: problem_solving 2s;
-}
-@keyframes problem_solving {
-    0%{
-        width: 0%;
-    }100%{
-        width: 80%;
-    }
-}
-.skill_bar .bar .creativity{
-    width: 90%;
-    animation: creativity 2s;
-}
-@keyframes creativity {
-    0%{
-        width: 0%;
-    }100%{
-        width: 90%;
-    }
+
+.skill_category p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #444;
 }
 
 /*----------------------------------------------------------- Projects --------------------------------------------------------------------*/
